@@ -8,7 +8,7 @@ namespace PII_Game_Of_Life
 
         public Tablero()
         {
-            this.tablero = ConseguirTablero.CargarTablero();
+            this.tablero = ObtenerTablero.CargarTablero();
         }
         private bool[,] tablero {get; set;}
         public void NuevoTablero(Tablero nuevoTablero)

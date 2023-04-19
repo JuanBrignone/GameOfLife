@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace  PII_Game_Of_Life
 {
-    public class ImprimirTablero
+    public class MostrarTablero
     {
         public static void printTablero(Tablero tablerow)
         {

@@ -9,7 +9,7 @@ namespace PII_Game_Of_Life
         {
             Tablero tablero = new Tablero();
             while(true){
-                ImprimirTablero.printTablero(tablero);
+                MostrarTablero.printTablero(tablero);
                 LogicaDeJuego.nuevaGeneracion(tablero);
                 Thread.Sleep(300);
             }

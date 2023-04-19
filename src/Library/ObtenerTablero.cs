@@ -4,7 +4,7 @@ using System.IO;
 
 namespace PII_Game_Of_Life
 {
-    public class ConseguirTablero
+    public class ObtenerTablero
     {
         static public bool[,]CargarTablero()
         {
